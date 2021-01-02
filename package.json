@@ -8,8 +8,72 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.1.0",
     "next": "^10.0.0",
+    "postcss": "^8.2.2",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "sass": "^1.32.0",
+    "tailwindcss": "^2.0.2"
+  },
+  "eslintConfig": {
+    "extends": [
+      "airbnb"
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": 0,
+      "jsx-a11y/anchor-is-valid": [
+        "error",
+        {
+          "components": [
+            "Link"
+          ],
+          "specialLink": [
+            "hrefLeft",
+            "hrefRight"
+          ],
+          "aspects": [
+            "invalidHref",
+            "preferButton"
+          ]
+        }
+      ],
+      "no-new": 0,
+      "eqeqeq": 0,
+      "func-names": 0,
+      "global-require": 0,
+      "ignoreStrings": 0,
+      "react/jsx-filename-extension": 0,
+      "import/extensions": 0,
+      "no-console": 0,
+      "no-global-assign": 0,
+      "no-param-reassign": 0,
+      "no-plusplus": 0,
+      "no-var": 0,
+      "prefer-destructuring": 0,
+      "space-before-function-paren": 0,
+      "spaced-comment": 0,
+      "wrap-iife": 0
+    },
+    "env": {
+      "browser": true,
+      "node": true,
+      "jquery": true
+    },
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-html": "^6.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-prettier": "^3.3.0",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0"
   }
 }
