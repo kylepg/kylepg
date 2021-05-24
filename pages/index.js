@@ -24,7 +24,7 @@ export default function Home() {
               height="674.875"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood result="flood" floodColor="#faaa4c" />
+              <feFlood result="flood" floodColor="#198F5A" />
               <feComposite result="composite" operator="in" in2="SourceGraphic" />
               <feBlend result="blend" in2="SourceGraphic" />
             </filter>
@@ -36,7 +36,7 @@ export default function Home() {
               height="925.843"
               filterUnits="userSpaceOnUse"
             >
-              <feFlood result="flood" floodColor="#fff" />
+              <feFlood result="flood" floodColor="#4CA87F" />
               <feComposite result="composite" operator="in" in2="SourceGraphic" />
               <feBlend result="blend" in2="SourceGraphic" />
             </filter>
